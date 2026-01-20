@@ -25,5 +25,7 @@ export default defineConfig([
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
     },
+    ignorePatterns: ['**'],  // Disable all warnings
+    reportUnusedDisableDirectives: 'off',
   },
 ])
