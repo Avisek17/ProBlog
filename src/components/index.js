@@ -5,6 +5,10 @@ import Container from "./Container/Container";
 import LogoutBtn from "./Header/LogoutBtn";
 import Button from "./Button"
 import RTE from "./RTE";
+import Signup from './Signup.jsx'
+import Login from "./Login.jsx";
+import PostForm from "./postForm/PostForm.jsx";
+import PostCard from './PostCard'
 export {
     Header,
     Footer,
@@ -12,5 +16,9 @@ export {
     Container,
     LogoutBtn,
     Button,
-    RTE
+    RTE,
+    Signup,
+    Login,
+    PostForm,
+    PostCard
 }
